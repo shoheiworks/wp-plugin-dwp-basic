@@ -37,3 +37,7 @@ function functions_menu(){
 function re_admin(){
     require_once('includes/admin-page.php');
 }
+
+//REMOVE head
+remove_action('wp_head', 'wp_generator');
+remove_action('wp_head', 'wlwmanifest_link');
