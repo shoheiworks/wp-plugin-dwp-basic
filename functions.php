@@ -35,5 +35,5 @@ function functions_menu(){
 	);
 }
 function re_admin(){
-	require_once('includes/admin.php');
+    require_once('includes/admin-page.php');
 }
